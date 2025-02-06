@@ -8,7 +8,7 @@ const About = () => {
 
             <div className='relative' >
             <Image className=' w-[800px] h-[370px]  border' src={img1} alt='person' />
-            <Image className='absolute left-9 top-4 w-72 rounded-xl border-4 border-white'  src={img2 } alt='parts'/>
+            <Image className='absolute left-48 top-48 w-72 rounded-xl border-4 border-white'  src={img2 } alt='parts'/>
             </div>
             <div className='space-y-6 w-11/12'>
                 <h3 className='font-semibold text-red-500'>About Us</h3>

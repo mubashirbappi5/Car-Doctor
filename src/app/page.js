@@ -1,6 +1,7 @@
 import About from "@/Components/About";
 import Banner from "@/Components/Banner";
 import BannerSlider from "@/Components/BannerSlider";
+import Servicesection from "@/Components/Servicesection";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <>
     <BannerSlider/>
     <About/>
+    <Servicesection/>
       
     </>
   );
