@@ -1,6 +1,7 @@
 import dbConnect from '@/lib/dbConnect';
 import React from 'react';
 import Card from './Card';
+import Link from 'next/link';
 
 const Servicesection =async () => {
     
@@ -18,6 +19,10 @@ const Servicesection =async () => {
                 data.map(service=><Card service={service}/>)
             }
            </section>
+
+         <div className='flex justify-center my-10'>
+         <Link href={'/service'} className='border-2 text-red-500 px-4 py-1 border-red-500 '>More Services</Link>
+         </div>
 
             
         </div>

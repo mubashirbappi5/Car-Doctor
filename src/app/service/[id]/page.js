@@ -31,7 +31,7 @@ const Serviceone = async ({ params }) => {
         </figure>
       </section>
 
-      <section className="w-11/12 mx-auto p-3">
+      <section className="w-11/12 mx-auto p-3 space-y-4">
         <div>
           <Image
             className=" rounded-xl"

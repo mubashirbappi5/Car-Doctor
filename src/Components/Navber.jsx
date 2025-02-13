@@ -5,10 +5,10 @@ import Link from 'next/link';
 const Navber = () => {
     const links = <>
     <li><Link href={'/'}>Home</Link></li>
-    <li><Link href={'/'}>About</Link></li>
+    <li><Link href={'/about'}>About</Link></li>
     <li><Link href={'/service'}> Services</Link></li>
-    <li><Link href={'/'}> Blog</Link></li>
-    <li><Link href={''}> Contact</Link></li>
+    <li><Link href={'/blog'}> Blog</Link></li>
+    <li><Link href={'/contact'}> Contact</Link></li>
     </>
     return (
         <div>
